@@ -122,7 +122,7 @@ function(
 	if(isPaired)
 		resPair<-Reduce("+", resTmpPair)
 
-	resSingle<-Reduce("+", resTmpSingle)
+	# resSingle<-Reduce("+", resTmpSingle)
 
 	res<- resPair+resSingle
 
